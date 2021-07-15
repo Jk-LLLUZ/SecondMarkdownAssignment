@@ -1,6 +1,6 @@
 ---
 title: "Second Markdown Assignment"
-author: "John Kyle C. Lluz"
+author: "Adrian Enrico Rodriguez, Gian Carlo Fernandez, Iris Salangad, John Kyle C. Lluz"
 date: "7/15/2021"
 output: html_document
 ---
