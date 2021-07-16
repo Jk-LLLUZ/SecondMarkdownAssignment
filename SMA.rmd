@@ -17,7 +17,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Question 1
 
-hatdog
+<center>
+![](https://i.postimg.cc/26FQRpWr/217844633-152976216928800-6274208294543673480-n.png)
+</center>
 
 ## Question 2
 
