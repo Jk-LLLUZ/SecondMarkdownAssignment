@@ -2,7 +2,10 @@
 title: "Second Markdown Assignment"
 author: "Adrian Enrico Rodriguez, Gian Carlo Fernandez, Iris Salangad, John Kyle C. Lluz"
 date: "7/16/2021"
-output: html_document 
+output: 
+  html_document:
+    highlight: pygments
+    theme: darkly
 ---
 
 ```{r setup, include=FALSE}
@@ -12,7 +15,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # The Monty Hall Problem and the PCSO Ultra Lotto 6/58 {.tabset}
 
-## Question 1
+## Monty Hall
 
 ### *Insights and solution to the Monty Hall Problem*
 
@@ -20,7 +23,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ![](https://i.postimg.cc/26FQRpWr/217844633-152976216928800-6274208294543673480-n.png)
 </center>
 
-  The Monty Hall Problem is a game from Video Village, a show hosted by Monty Hall himself in which the players are to pick from the given 3 doors. **1 door has a major prize while the other 2 have no prizes.** When the player picks a door, Monty Hall then opens another door not picked by the player and asks if the player is going to stay or switch to another door. A debate then arises **whether or not it is better to switch or to stay.**
+  The Monty Hall Problem is a game from *Video Village*, a show hosted by Monty Hall himself in which the players are to pick from the given 3 doors. **1 door has a major prize while the other 2 have no prizes.** When the player picks a door, Monty Hall then opens another door not picked by the player and asks if the player is going to stay or switch to another door. A debate then arises **whether or not it is better to switch or to stay.**
 
   When we use probability, we will be able to derive the chances of winning or losing if the player switches a door or stays at their first pick.
   
@@ -60,7 +63,7 @@ If the Player is wrong but Switches. (⅔)<br>
 ![](https://i.postimg.cc/HLzrmbz8/217040600-1716068502114688-1398228105065520921-n.png)
 </center>
 
-## Question 2
+## PCSO Ultra Lotto 6/58
 
 ### *If a player were to try all the possible combinations in the PCSO Ultra Lotto 6/58, would the grand prize place him in a winning situation?*
 
