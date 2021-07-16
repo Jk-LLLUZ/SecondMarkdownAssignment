@@ -12,25 +12,25 @@ knitr::opts_chunk$set(echo = TRUE)
 
 !!!!!!Start of DOcuments/ answers!!!!!
 
-### If a player were to try all the possible combinations in the 6/58 PCSO Lotto, would the grand prize place him in a winning situation?
+# If a player were to try all the possible combinations in the 6/58 PCSO Lotto, would the grand prize place him in a winning situation?
 
-# The Philippine Charity Sweepstake Office, better known as PCSO, regularly holds lotteries wherein bettors place around 20 pesos for a ticket and a chance to win money from the huge prize pool.  The mechanics of the 6/58 Ultra Lotto specifically states that there are *58 numbers that players can choose from*.  Among the 58 numbers, the *players have to pick 6 lucky numbers* which must match with the 6 winning numbers to take home the grand prize of around 50,000,000 pesos.
+  The Philippine Charity Sweepstake Office, better known as PCSO, regularly holds lotteries wherein bettors place around 20 pesos for a ticket and a chance to win money from the huge prize pool.  The mechanics of the 6/58 Ultra Lotto specifically states that there are **58 numbers that players can choose from**.  Among the 58 numbers, the **players have to pick 6 lucky numbers** which must match with the 6 winning numbers to take home the grand prize of around 50,000,000 pesos.
 
-# In order to determine whether the grand prize can cover all the expenses if the bettor were to try all the possible combinations, it is necessary to compute the number of possible combinations first.  Since order is not important in guessing for the winning numbers, we will use the formula for combination as seen below:
+  In order to determine whether the grand prize can cover all the expenses if the bettor were to try all the possible combinations, it is necessary to compute the number of possible combinations first.  Since order is not important in guessing for the winning numbers, we will use the formula for combination as seen below:
 
-# "insert equation"
+## "insert equation"
 
-# 	Since there are 58 total number of terms to pick from and there are 6 numbers to pick per ticket, solving for the number of combinations would look like:
+  Since there are 58 total number of terms to pick from and there are 6 numbers to pick per ticket, solving for the number of combinations would look like:
 
-# "insert solution"
+## "insert solution"
 
-# With the number of possible combinations now available, we can now proceed to solving for the total amount to be spent if each ticket were to cost 20 pesos.
+  With the number of possible combinations now available, we can now proceed to solving for the total amount to be spent if each ticket were to cost 20 pesos.
 
-# "insert solution"
+## "insert solution"
 
-# From the acquired data, it can be concluded that the bettor will still be at a loss of 759,507,160 pesos - an understatement for a massive loss, if he chooses to try all possible combinations as the jackpot prize is just .06% of the total to be spent.
+  From the acquired data, it can be concluded that the bettor will still be at a loss of 759,507,160 pesos - an understatement for a massive loss, if he chooses to try all possible combinations as the jackpot prize is just .06% of the total to be spent.
 
-# insert graph
+## insert graph
 
 ```{r cars}
 summary(cars)
