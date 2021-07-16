@@ -20,9 +20,49 @@ knitr::opts_chunk$set(echo = TRUE)
 ![](https://i.postimg.cc/26FQRpWr/217844633-152976216928800-6274208294543673480-n.png)
 </center>
 
+  The Monty Hall Problem is a game from Video Village, a show hosted by Monty Hall himself in which the players are to pick from the given 3 doors. **1 door has a major prize while the other 2 have no prizes.** When the player picks a door, Monty Hall then opens another door not picked by the player and asks if the player is going to stay or switch to another door. A debate then arises **whether or not it is better to switch or to stay.**
+
+  When we use probability, we will be able to derive the chances of winning or losing if the player switches a door or stays at their first pick.
+  
+  The game starts with all three doors closed and no information is given. When a player picks a door, since there is only one prize but 3 outcomes, **this gives us an equal chance of winning with ⅓ each door.**
+
+  After selecting door 1 in each scenario, **there are three possible arrangements of one Rico (prize)** and **two Chocnuts behind three doors,** as well as the outcome of remaining or switching after first picking door 1.
+  
+**CASE 1:** If the Chocnut is behind doors 1 and 2, we can say that Rico is behind door 3. If we remain to stay at the door #1, the prize that we’ll win is Chocnut. However, **if we switch to the door offered, we’ll be able to win Rico. **
+
+<center>
+![Fig. 1: Case 1](https://i.postimg.cc/pV4tmy19/217815215-408853103781621-3950170737054700387-n.png)
+</center>
+
+**CASE 2:** If the Chocnut is behind doors 1 and 3, we can say that Rico is behind door 2. If we remain to stay at the door #1, the prize that we’ll win is Chocnut. However, **if we switch to the door offered, we’ll be able to win Rico.**
+
+<center>
+![Fig. 2: Case 2](https://i.postimg.cc/xqD7tJWt/217837977-871679147084530-8132342911813579294-n.png)
+</center>
+
+**CASE 3:** If the Chocnut is behind doors 2 and 3, we can say that Rico is behind door 1. If we remain to stay at the door #1, the prize that we’ll win is Rico. However, **if we switch to the door offered, we’ll be able to win Chocnut. ** 
+
+<center>
+![Fig. 3: Case 3](https://i.postimg.cc/VsRDhhXz/218647436-366414004900208-1805011222308151348-n.png)
+</center>
+
+By referring to two of the figures above, the player wins by changing his or her mind before the door is opened.
+
+<center>
+**CONDITIONS**<br>
+If the Player is right and Stays. (⅓)<br>
+If the Player is wrong and Stays. (⅓)<br>
+If the Player is right but Switches. (⅔)<br>
+If the Player is wrong but Switches. (⅔)<br>
+</center>
+
+<center>
+![](https://i.postimg.cc/HLzrmbz8/217040600-1716068502114688-1398228105065520921-n.png)
+</center>
+
 ## Question 2
 
-### *If a player were to try all the possible combinations in the 6/58 PCSO Lotto, would the grand prize place him in a winning situation?*
+### *If a player were to try all the possible combinations in the PCSO Ultra Lotto 6/58, would the grand prize place him in a winning situation?*
 
 <center>
 ![](https://pcsolottoresult.info/wp-content/uploads/2020/02/6-58-Lotto-Result.png)
