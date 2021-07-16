@@ -21,23 +21,23 @@ knitr::opts_chunk$set(echo = TRUE)
   In order to determine whether the grand prize can cover all the expenses if the bettor were to try all the possible combinations, it is necessary to compute the number of possible combinations first.  Since order is not important in guessing for the winning numbers, **the formula for combination is more appropriate** as seen below:
 
 <center>
-![](https://i.postimg.cc/Mpfgzg4B/Screen-Shot-2021-07-16-at-10-37-51-AM.png)
+![](https://i.postimg.cc/kMZsFsfM/Screen-Shot-2021-07-16-at-12-52-29-PM.png)
 </center>
 
   Since there are 58 total number of terms to pick from and there are 6 numbers to pick per ticket, solving for the **number of possible combinations** would look like:
 
 <center>
-![](https://i.postimg.cc/G2bc8cwV/Screen-Shot-2021-07-16-at-10-48-20-AM.png)
+![](https://i.postimg.cc/cJ9kqSMw/Screen-Shot-2021-07-16-at-12-54-21-PM.png)
 </center>
 
   With the number of possible combinations now available, we can now proceed to solving for the **total amount to be spent** if each ticket were to cost 20 pesos.
 
 <center>
-![](https://i.postimg.cc/7PWkD16p/Screen-Shot-2021-07-16-at-10-51-09-AM.png)
+![](https://i.postimg.cc/Yq5XkRWD/Screen-Shot-2021-07-16-at-12-49-52-PM.png)
 </center>
 
   From the acquired data, it can be concluded that the bettor will still be at a loss of 759,507,160 pesos - an understatement for a massive loss, if he chooses to try all possible combinations as the **jackpot prize is just .06% of the total to be spent.**
 
 <center>
-![](https://i.postimg.cc/qBCMgBFb/Screen-Shot-2021-07-16-at-12-25-20-PM.png)
+![](https://i.postimg.cc/MHKGn1fh/Screen-Shot-2021-07-16-at-12-56-38-PM.png)
 </center>
