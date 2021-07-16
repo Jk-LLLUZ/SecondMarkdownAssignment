@@ -38,4 +38,6 @@ knitr::opts_chunk$set(echo = TRUE)
 
   From the acquired data, it can be concluded that the bettor will still be at a loss of 759,507,160 pesos - an understatement for a massive loss, if he chooses to try all possible combinations as the **jackpot prize is just .06% of the total to be spent.**
 
-### "insert graph"
+<center>
+![](https://i.postimg.cc/JtwfBLGS/Screen-Shot-2021-07-16-at-12-23-00-PM.png)
+</center>
