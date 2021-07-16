@@ -9,6 +9,10 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+<center>
+![TESTING KUNG GANO KALAKI](https://i.postimg.cc/KzK6JN3P/IMG-0-B8-E1-A9-FE792-1.jpg)
+</center>
+
 # The Monty Hall Problem and the PCSO Ultra Lotto 6/58 {.tabset}
 
 ## Question 1
