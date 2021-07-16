@@ -9,7 +9,7 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# Questions {.tabset}
+# The Monty Hall Problem and the PCSO Ultra Lotto 6/58 {.tabset}
 
 ## Question 1
 
