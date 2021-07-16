@@ -20,30 +20,22 @@ knitr::opts_chunk$set(echo = TRUE)
 
   In order to determine whether the grand prize can cover all the expenses if the bettor were to try all the possible combinations, it is necessary to compute the number of possible combinations first.  Since order is not important in guessing for the winning numbers, **the formula for combination is more appropriate** as seen below:
 
-### "insert equation"
+<center>
+![](https://i.postimg.cc/Mpfgzg4B/Screen-Shot-2021-07-16-at-10-37-51-AM.png)
+</center>
 
-  Since there are 58 total number of terms to pick from and there are 6 numbers to pick per ticket, solving for the **number of combinations** would look like:
+  Since there are 58 total number of terms to pick from and there are 6 numbers to pick per ticket, solving for the **number of possible combinations** would look like:
 
-### "insert solution"
+<center>
+![](https://i.postimg.cc/G2bc8cwV/Screen-Shot-2021-07-16-at-10-48-20-AM.png)
+</center>
 
   With the number of possible combinations now available, we can now proceed to solving for the **total amount to be spent** if each ticket were to cost 20 pesos.
 
-### "insert solution"
+<center>
+![](https://i.postimg.cc/7PWkD16p/Screen-Shot-2021-07-16-at-10-51-09-AM.png)
+</center>
 
   From the acquired data, it can be concluded that the bettor will still be at a loss of 759,507,160 pesos - an understatement for a massive loss, if he chooses to try all possible combinations as the **jackpot prize is just .06% of the total to be spent.**
 
 ### "insert graph"
-
-```{r cars}
-summary(cars)
-```
-
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
